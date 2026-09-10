@@ -1,0 +1,16 @@
+{
+  "job_id": "d9la4sgii2cc73eh7j3g",
+  "backend": "ibm_kingston",
+  "created": "2026-07-30T11:01:38.247389+10:00",
+  "test": "Test 9 -- gate-matched fill (7 more confirmed-31-gate PCA pairs to reach n=18)",
+  "n_pubs": 7,
+  "corpus": "48-item hard corpus, seeds 0-2",
+  "n_qubits": 4,
+  "circuit_type": "destructive/Bell-basis",
+  "pca_fitting_convention": "query-included (leaky) -- verified via circuit-level angle-shift trace, all 7 pairs (mean shift 1.013 rad, largest single shift 2.360 rad / 75.1% of pi across this job's 7 circuits)",
+  "calibration_epoch": "C",
+  "surviving_artifacts": {
+    "submit_script": "scratch_hw_submit_pca_fill7.py",
+    "circuit_pkl": "scratch_hw_pca_fill7.pkl"
+  }
+}

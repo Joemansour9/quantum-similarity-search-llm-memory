@@ -1,0 +1,22 @@
+{
+  "job_id": "dacpp6642tqs73ash4r0",
+  "corrected": true,
+  "original_job_id": "d9uiq7535hes73fk02lg",
+  "backend": "ibm_kingston",
+  "created": "2026-09-03T16:13:44.235056+00:00",
+  "test": "transition_boundary_hardware_2026-08-13.md, Tier 5 -- 232-item corpus, mult=4.0, n=12 wrong-top-1 reproduction (wrong-rate 8.6%, brackets the 224-240 jump) [corrected rerun of d9uiq7535hes73fk02lg]",
+  "n_pubs": 48,
+  "corpus": "232-item corpus (29/category), seed=0",
+  "n_qubits": 4,
+  "shots": 1024,
+  "optimization_level": 3,
+  "circuit_type": "destructive/Bell-basis",
+  "pca_fitting_convention": "out-of-sample (leak-free, corrected) -- query excluded from the batch used to fit the PCA projection; verified against readiness data (scratch_hw_corrected_circuits_readiness.pkl) before submission and against the identity-chain check after",
+  "elapsed_seconds": 32.73636430001352,
+  "job_usage_seconds": 15,
+  "surviving_artifacts": {
+    "results_pkl": "corrected_results/scratch_hw_corrected_232-mult4.0_results.pkl",
+    "note": "raw per-item counts and per-item hw/sim fidelity are stored directly in this results_pkl; no separate circuit_pkl was retained for the corrected rerun."
+  },
+  "relation_to_original": "Corrected (leak-free) re-submission of d9uiq7535hes73fk02lg, same corpus/seed/candidate pairs/circuit type/n_qubits as the original, differing only in the PCA-fitting convention used to build the rotation angles."
+}

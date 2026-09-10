@@ -1,0 +1,22 @@
+{
+  "job_id": "dacpg451ierc738juco0",
+  "corrected": true,
+  "original_job_id": "d9toqms98n5s7391tn30",
+  "backend": "ibm_kingston",
+  "created": "2026-09-03T15:54:00.758239+00:00",
+  "test": "hardware_confirmation_480item_2026-08-12.md, Tier 2 (bonus) -- n_qubits=14 gate-count-saturation spot-check, PCA self-match pairs only [corrected rerun of d9toqms98n5s7391tn30]",
+  "n_pubs": 10,
+  "corpus": "480-item corpus (60/category), seed=0",
+  "n_qubits": 14,
+  "shots": 1024,
+  "optimization_level": 3,
+  "circuit_type": "destructive/Bell-basis",
+  "pca_fitting_convention": "out-of-sample (leak-free, corrected) -- query excluded from the batch used to fit the PCA projection; verified against readiness data (scratch_hw_corrected_circuits_readiness.pkl) before submission and against the identity-chain check after",
+  "elapsed_seconds": 9.903915000031702,
+  "job_usage_seconds": 5,
+  "surviving_artifacts": {
+    "results_pkl": "corrected_results/scratch_hw_corrected_Tier2-nq14-selfmatch_results.pkl",
+    "note": "raw per-item counts and per-item hw/sim fidelity are stored directly in this results_pkl; no separate circuit_pkl was retained for the corrected rerun."
+  },
+  "relation_to_original": "Corrected (leak-free) re-submission of d9toqms98n5s7391tn30, same corpus/seed/candidate pairs/circuit type/n_qubits as the original, differing only in the PCA-fitting convention used to build the rotation angles."
+}

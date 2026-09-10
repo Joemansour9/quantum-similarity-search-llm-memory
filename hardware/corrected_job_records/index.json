@@ -1,0 +1,219 @@
+[
+  {
+    "job_id": "dacdh9t1ierc738jf8hg",
+    "original_job_id": "d9l0mrqbr2fc73e812hg",
+    "backend": "ibm_fez",
+    "test": "Test 1 -- CSWAP-PCA fidelity [corrected rerun of d9l0mrqbr2fc73e812hg]",
+    "n_pubs": 1
+  },
+  {
+    "job_id": "dacdhc51ierc738jf8k0",
+    "original_job_id": "d9l17rbjf64c739isibg",
+    "backend": "ibm_fez",
+    "test": "Test 1 -- destructive-PCA fidelity [corrected rerun of d9l17rbjf64c739isibg]",
+    "n_pubs": 1
+  },
+  {
+    "job_id": "dacdhh3dd5gc73d5trp0",
+    "original_job_id": "d9l7shabr2fc73e8ao40",
+    "backend": "ibm_kingston",
+    "test": "Test 3 -- ranking preservation (1 query x 4 candidates) [corrected rerun of d9l7shabr2fc73e8ao40]",
+    "n_pubs": 4
+  },
+  {
+    "job_id": "dacdl9m42tqs73as1h0g",
+    "original_job_id": "d9l820rhdfks73ckkco0",
+    "backend": "ibm_kingston",
+    "test": "Test 4 -- gate-count midpoint (opt_level=0 vs 3) [corrected rerun of d9l820rhdfks73ckkco0]",
+    "n_pubs": 1
+  },
+  {
+    "job_id": "dacdsrd1ierc738jfkj0",
+    "original_job_id": "d9l842rjf64c739j5q4g",
+    "backend": "ibm_kingston",
+    "test": "Test 5 -- multi-candidate retrieval benchmark (3 queries x 4 candidates) [corrected rerun of d9l842rjf64c739j5q4g]",
+    "n_pubs": 12
+  },
+  {
+    "job_id": "dacgt551ierc738jj9l0",
+    "original_job_id": "d9l9kb3jf64c739j7ni0",
+    "backend": "ibm_kingston",
+    "test": "Test 7 -- n=4-per-method statistical comparison [corrected rerun of d9l9kb3jf64c739j7ni0]",
+    "n_pubs": 3
+  },
+  {
+    "job_id": "dacogvjdd5gc73d6brdg",
+    "original_job_id": "d9l9uh0ii2cc73eh7bl0",
+    "backend": "ibm_kingston",
+    "test": "Test 8 -- n~18-per-method multi-seed comparison, batch 1 of 2 [corrected rerun of d9l9uh0ii2cc73eh7bl0]",
+    "n_pubs": 9
+  },
+  {
+    "job_id": "dacoh9642tqs73asfef0",
+    "original_job_id": "d9l9vbabr2fc73e8d8o0",
+    "backend": "ibm_kingston",
+    "test": "Test 8 -- n~18-per-method multi-seed comparison, batch 2 of 2 [corrected rerun of d9l9vbabr2fc73e8d8o0]",
+    "n_pubs": 5
+  },
+  {
+    "job_id": "dacohmd1ierc738jt7l0",
+    "original_job_id": "d9la4sgii2cc73eh7j3g",
+    "backend": "ibm_kingston",
+    "test": "Test 9 -- gate-matched fill (7 more confirmed-31-gate PCA pairs to reach n=18) [corrected rerun of d9la4sgii2cc73eh7j3g]",
+    "n_pubs": 7
+  },
+  {
+    "job_id": "dacohqtnj4cs73actna0",
+    "original_job_id": "d9lac03jf64c739j8i50",
+    "backend": "ibm_kingston",
+    "test": "Test 10 -- n_qubits=8 replication [corrected rerun of d9lac03jf64c739j8i50]",
+    "n_pubs": 8
+  },
+  {
+    "job_id": "dacohutnj4cs73actnf0",
+    "original_job_id": "d9lal32br2fc73e8e0sg",
+    "backend": "ibm_kingston",
+    "test": "Test 11 -- n_qubits=6 intermediate depth [corrected rerun of d9lal32br2fc73e8e0sg]",
+    "n_pubs": 8
+  },
+  {
+    "job_id": "dacoi2tnj4cs73actnk0",
+    "original_job_id": "d9lavtibr2fc73e8ed5g",
+    "backend": "ibm_kingston",
+    "test": "Test 12 -- strengthened retrieval, batch 1 of 2 (8 new queries added to Recall@1=n) [corrected rerun of d9lavtibr2fc73e8ed5g]",
+    "n_pubs": 16
+  },
+  {
+    "job_id": "dacoierdd5gc73d6bta0",
+    "original_job_id": "d9lb080ii2cc73eh8h7g",
+    "backend": "ibm_kingston",
+    "test": "Test 12 -- strengthened retrieval, batch 2 of 2 [corrected rerun of d9lb080ii2cc73eh8h7g]",
+    "n_pubs": 16
+  },
+  {
+    "job_id": "dacoinu42tqs73asfg50",
+    "original_job_id": "d9lblv8ii2cc73eh9a40",
+    "backend": "ibm_kingston",
+    "test": "Priority 1 -- n_qubits=5, unresolved-window test [corrected rerun of d9lblv8ii2cc73eh9a40]",
+    "n_pubs": 8
+  },
+  {
+    "job_id": "dacoir3dd5gc73d6bts0",
+    "original_job_id": "d9lcqtjjf64c739jbkrg",
+    "backend": "ibm_fez",
+    "test": "Priority 2 -- CSWAP-vs-destructive, n=4 paired (strengthens Test 1) [corrected rerun of d9lcqtjjf64c739jbkrg]",
+    "n_pubs": 8
+  },
+  {
+    "job_id": "dacpanjdd5gc73d6cpm0",
+    "original_job_id": "d9ls5umh4e6s738ubqt0",
+    "backend": "ibm_kingston",
+    "test": "large_corpus_generalization_2026-07-30.md, Result 2b -- hardware confirmation of the mult=2.0 query-noise-dissociation breakdown [corrected rerun of d9ls5umh4e6s738ubqt0]",
+    "n_pubs": 16
+  },
+  {
+    "job_id": "dacpfcl1ierc738jubng",
+    "original_job_id": "d9uedg343mgs73essa60",
+    "backend": "ibm_kingston",
+    "test": "hardware_confirmation_480item_2026-08-12.md, Tier 1c -- mult=2.0 extension, 8 new wrong-top-1 queries (q_idx 4-13, excluding 0-3) [corrected rerun of d9uedg343mgs73essa60]",
+    "n_pubs": 32
+  },
+  {
+    "job_id": "dacpfnjdd5gc73d6d0n0",
+    "original_job_id": "d9tokp343mgs73es1aug",
+    "backend": "ibm_kingston",
+    "test": "hardware_confirmation_480item_2026-08-12.md, Tier 1b -- mult=4.0, n=12 wrong-top-1 reproduction [corrected rerun of d9tokp343mgs73es1aug]",
+    "n_pubs": 48
+  },
+  {
+    "job_id": "dacpftdnj4cs73acurp0",
+    "original_job_id": "d9uejad35hes73fjr31g",
+    "backend": "ibm_kingston",
+    "test": "hardware_confirmation_480item_2026-08-12.md, Tier 3 -- mult=6.0, n=12 wrong-top-1 reproduction (the paper's flagged-borderline noise level) [corrected rerun of d9uejad35hes73fjr31g]",
+    "n_pubs": 48
+  },
+  {
+    "job_id": "dacpg451ierc738juco0",
+    "original_job_id": "d9toqms98n5s7391tn30",
+    "backend": "ibm_kingston",
+    "test": "hardware_confirmation_480item_2026-08-12.md, Tier 2 (bonus) -- n_qubits=14 gate-count-saturation spot-check, PCA self-match pairs only [corrected rerun of d9toqms98n5s7391tn30]",
+    "n_pubs": 10
+  },
+  {
+    "job_id": "dacpi4lnj4cs73acuub0",
+    "original_job_id": "d9ufha343mgs73estpa0",
+    "backend": "ibm_kingston",
+    "test": "hardware_gradual_onset_2026-08-13.md -- 192-item corpus, mult=1.2, n=12 wrong-top-1 reproduction [corrected rerun of d9ufha343mgs73estpa0]",
+    "n_pubs": 48
+  },
+  {
+    "job_id": "dacpkal1ierc738jukf0",
+    "original_job_id": "d9ufjngu5hac73ah5phg",
+    "backend": "ibm_kingston",
+    "test": "hardware_gradual_onset_2026-08-13.md -- 192-item corpus, mult=2.0, n=12 wrong-top-1 reproduction [corrected rerun of d9ufjngu5hac73ah5phg]",
+    "n_pubs": 48
+  },
+  {
+    "job_id": "dacpnmm42tqs73ash38g",
+    "original_job_id": "d9ufpbgu5hac73ah61p0",
+    "backend": "ibm_kingston",
+    "test": "hardware_gradual_onset_2026-08-13.md -- 192-item corpus, mult=4.0, n=12 wrong-top-1 reproduction [corrected rerun of d9ufpbgu5hac73ah61p0]",
+    "n_pubs": 48
+  },
+  {
+    "job_id": "dacpo33dd5gc73d6dgb0",
+    "original_job_id": "d9ufqc535hes73fjsoe0",
+    "backend": "ibm_kingston",
+    "test": "hardware_gradual_onset_2026-08-13.md -- 192-item corpus, mult=6.0, n=12 wrong-top-1 reproduction [corrected rerun of d9ufqc535hes73fjsoe0]",
+    "n_pubs": 48
+  },
+  {
+    "job_id": "dacpo8tnj4cs73acvcb0",
+    "original_job_id": "d9ug2ik98n5s7392qol0",
+    "backend": "ibm_kingston",
+    "test": "transition_boundary_hardware_2026-08-13.md, Tier 2 -- 216-item corpus, mult=1.2, n=12 wrong-top-1 reproduction [corrected rerun of d9ug2ik98n5s7392qol0]",
+    "n_pubs": 48
+  },
+  {
+    "job_id": "dacpoejdd5gc73d6dgpg",
+    "original_job_id": "d9ug37498n5s7392qp9g",
+    "backend": "ibm_kingston",
+    "test": "transition_boundary_hardware_2026-08-13.md, Tier 2 -- 216-item corpus, mult=2.0, n=12 wrong-top-1 reproduction [corrected rerun of d9ug37498n5s7392qp9g]",
+    "n_pubs": 48
+  },
+  {
+    "job_id": "dacpokjdd5gc73d6dh2g",
+    "original_job_id": "d9ug1i8u5hac73ah6a7g",
+    "backend": "ibm_kingston",
+    "test": "transition_boundary_hardware_2026-08-13.md, Tier 1 -- 216-item corpus, mult=4.0, n=12 wrong-top-1 reproduction (headline scan-count result for this corpus size: 197 queries scanned for wrong-rate 6.1%) [corrected rerun of d9ug1i8u5hac73ah6a7g]",
+    "n_pubs": 48
+  },
+  {
+    "job_id": "dacpoqd1ierc738jut3g",
+    "original_job_id": "d9ug5r498n5s7392qrpg",
+    "backend": "ibm_kingston",
+    "test": "transition_boundary_hardware_2026-08-13.md, Tier 2 -- 216-item corpus, mult=6.0, n=12 wrong-top-1 reproduction [corrected rerun of d9ug5r498n5s7392qrpg]",
+    "n_pubs": 48
+  },
+  {
+    "job_id": "dacpp05nj4cs73acvd60",
+    "original_job_id": "d9ug9q8u5hac73ah6im0",
+    "backend": "ibm_kingston",
+    "test": "transition_boundary_hardware_2026-08-13.md, Tier 3 -- 224-item corpus, mult=4.0, n=12 wrong-top-1 reproduction (wrong-rate 5.2%, confirms 216's plateau) [corrected rerun of d9ug9q8u5hac73ah6im0]",
+    "n_pubs": 48
+  },
+  {
+    "job_id": "dacpp6642tqs73ash4r0",
+    "original_job_id": "d9uiq7535hes73fk02lg",
+    "backend": "ibm_kingston",
+    "test": "transition_boundary_hardware_2026-08-13.md, Tier 5 -- 232-item corpus, mult=4.0, n=12 wrong-top-1 reproduction (wrong-rate 8.6%, brackets the 224-240 jump) [corrected rerun of d9uiq7535hes73fk02lg]",
+    "n_pubs": 48
+  },
+  {
+    "job_id": "dacppel1ierc738jutp0",
+    "original_job_id": "d9ugf5s98n5s7392r6ag",
+    "backend": "ibm_kingston",
+    "test": "transition_boundary_hardware_2026-08-13.md, Tier 4 -- 240-item corpus, mult=4.0, n=12 wrong-top-1 reproduction (wrong-rate 12.8%, first clear break from the 192-224 plateau) [corrected rerun of d9ugf5s98n5s7392r6ag]",
+    "n_pubs": 48
+  }
+]

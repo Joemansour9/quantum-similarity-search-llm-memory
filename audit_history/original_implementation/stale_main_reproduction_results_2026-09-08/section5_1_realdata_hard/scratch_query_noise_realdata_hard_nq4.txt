@@ -1,0 +1,18 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading HARD real corpus (20 Newsgroups: comp.*/rec.autos+motorcycles/sci.electronics) and encoding with all-MiniLM-L6-v2 ...
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|##########| 103/103 [00:00<00:00, 7538.18it/s]
+  done in 27.4s. corpus per-dim std = 0.04882 (embedding dim=384, unit-normalized)
+
+--- Query noise sweep on HARD real embeddings (n_qubits=4) ---
+(corpus per-dim std=0.04882; multiplier x that std = actual noise scale)
+   mult   random_q    pca_q   classical
+    0.2      0.880    1.000       1.000
+    1.2      0.060    0.960       1.000
+    2.0      0.040    1.000       1.000
+    4.0      0.020    0.980       0.980
+    6.0      0.020    0.840       0.840
+    8.0      0.020    0.640       0.640
+   10.0      0.000    0.360       0.380
+   12.0      0.000    0.320       0.320
+   16.0      0.000    0.180       0.180
+   20.0      0.000    0.140       0.140

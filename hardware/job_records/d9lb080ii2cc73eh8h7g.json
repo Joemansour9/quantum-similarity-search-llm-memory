@@ -1,0 +1,15 @@
+{
+  "job_id": "d9lb080ii2cc73eh8h7g",
+  "backend": "ibm_kingston",
+  "created": "2026-07-30T12:00:00.621413+10:00",
+  "test": "Test 12 -- strengthened retrieval, batch 2 of 2",
+  "n_pubs": 16,
+  "corpus": "48-item hard corpus, seed=0",
+  "n_qubits": 4,
+  "circuit_type": "destructive/Bell-basis",
+  "pca_fitting_convention": "query-included (leaky) -- confirmed by code-pattern trace, not independently angle-verified",
+  "surviving_artifacts": {
+    "submit_script": "scratch_hw_submit_retrieval_extra.py",
+    "note": "same submit script as batch 1"
+  }
+}

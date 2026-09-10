@@ -1,0 +1,22 @@
+{
+  "epoch_label": "A",
+  "last_update_date": "2026-07-30T08:10:48+10:00",
+  "backend": "ibm_kingston",
+  "jobs_under_this_epoch": [
+    "d9l7shabr2fc73e8ao40 (Test 3)",
+    "d9l8n22br2fc73e8bma0 (Test 6)"
+  ],
+  "two_qubit_gate_error": {
+    "mean": 0.03926,
+    "median": 0.00185,
+    "min": 0.00081,
+    "max": 1.0,
+    "n_gates": 704
+  },
+  "readout_error": {
+    "mean": 0.02546,
+    "median": 0.00873,
+    "n_qubits": 156
+  },
+  "note": "Pulled via backend.properties(datetime=...) using the default-ibm-cloud account, the account under which these jobs were run."
+}

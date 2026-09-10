@@ -1,0 +1,17 @@
+{
+  "job_id": "d9ufqc535hes73fjsoe0",
+  "backend": "ibm_kingston",
+  "created": "2026-08-13T09:09:36.191175+10:00",
+  "test": "hardware_gradual_onset_2026-08-13.md -- 192-item corpus, mult=6.0, n=12 wrong-top-1 reproduction",
+  "n_pubs": 48,
+  "corpus": "192-item corpus (24/category), seed=0",
+  "n_qubits": 4,
+  "circuit_type": "destructive/Bell-basis",
+  "pca_fitting_convention": "query-included (leaky) -- confirmed by code-pattern trace, not independently angle-verified. Gate counts uniform at 31.",
+  "surviving_artifacts": {
+    "build_script": "scratch_hw_build_192_mult6.0.py",
+    "circuit_pkl": "scratch_hw_192_mult6.0_circuits.pkl",
+    "submit_script": "scratch_hw_submit_192_mult6.0.py",
+    "results_pkl": "scratch_hw_192_mult6.0_results.pkl"
+  }
+}

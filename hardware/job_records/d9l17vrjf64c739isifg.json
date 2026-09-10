@@ -1,0 +1,15 @@
+{
+  "job_id": "d9l17vrjf64c739isifg",
+  "backend": "ibm_fez",
+  "created": "2026-07-30T00:53:51.434285+10:00",
+  "test": "Test 2 -- destructive-random fidelity (near-floor pair)",
+  "n_pubs": 1,
+  "corpus": "48-item hard corpus, seed=0",
+  "n_qubits": 4,
+  "circuit_type": "destructive/Bell-basis",
+  "pca_fitting_convention": "N/A (random projection matrix is data-independent by construction -- R drawn from (seed, n_qubits, embedding_dim) only, never touches query or candidate data)",
+  "surviving_artifacts": {
+    "submit_script": "scratch_hw_submit_destructive_random.py",
+    "circuit_pkl": "scratch_hw_circuit_destructive_random.pkl"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "job_id": "dacoierdd5gc73d6bta0",
+  "corrected": true,
+  "original_job_id": "d9lb080ii2cc73eh8h7g",
+  "backend": "ibm_kingston",
+  "created": "2026-09-03T14:51:10.013069+00:00",
+  "test": "Test 12 -- strengthened retrieval, batch 2 of 2 [corrected rerun of d9lb080ii2cc73eh8h7g]",
+  "n_pubs": 16,
+  "corpus": "48-item hard corpus, seed=0",
+  "n_qubits": 4,
+  "shots": 1024,
+  "optimization_level": 3,
+  "circuit_type": "destructive/Bell-basis",
+  "pca_fitting_convention": "out-of-sample (leak-free, corrected) -- query excluded from the batch used to fit the PCA projection; verified against readiness data (scratch_hw_corrected_circuits_readiness.pkl) before submission and against the identity-chain check after",
+  "elapsed_seconds": 35.98510759999044,
+  "job_usage_seconds": 7,
+  "surviving_artifacts": {
+    "results_pkl": "corrected_results/scratch_hw_corrected_Test12-batch2_results.pkl",
+    "note": "raw per-item counts and per-item hw/sim fidelity are stored directly in this results_pkl; no separate circuit_pkl was retained for the corrected rerun."
+  },
+  "relation_to_original": "Corrected (leak-free) re-submission of d9lb080ii2cc73eh8h7g, same corpus/seed/candidate pairs/circuit type/n_qubits as the original, differing only in the PCA-fitting convention used to build the rotation angles."
+}

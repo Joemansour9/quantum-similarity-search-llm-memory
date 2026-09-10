@@ -1,0 +1,17 @@
+{
+  "job_id": "d9ug2ik98n5s7392qol0",
+  "backend": "ibm_kingston",
+  "created": "2026-08-13T09:27:06.226973+10:00",
+  "test": "transition_boundary_hardware_2026-08-13.md, Tier 2 -- 216-item corpus, mult=1.2, n=12 wrong-top-1 reproduction",
+  "n_pubs": 48,
+  "corpus": "216-item corpus (27/category), seed=0",
+  "n_qubits": 4,
+  "circuit_type": "destructive/Bell-basis",
+  "pca_fitting_convention": "query-included (leaky) -- confirmed by code-pattern trace, not independently angle-verified",
+  "surviving_artifacts": {
+    "build_script": "scratch_hw_build_216_mult1.2.py",
+    "circuit_pkl": "scratch_hw_216_mult1.2_circuits.pkl",
+    "submit_script": "scratch_hw_submit_216_mult1.2.py",
+    "results_pkl": "scratch_hw_216_mult1.2_results.pkl"
+  }
+}

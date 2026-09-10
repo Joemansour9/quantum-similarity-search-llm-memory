@@ -1,0 +1,45 @@
+=== Qubit sweep (480-item corpus, n_queries=20/cell) ===
+  n_qubits= 4  random  Recall@1=0.050  (14.8s)
+  n_qubits= 4  pca     Recall@1=0.250  (14.4s)
+  n_qubits= 6  random  Recall@1=0.000  (18.7s)
+  n_qubits= 6  pca     Recall@1=0.550  (20.0s)
+  n_qubits= 8  random  Recall@1=0.050  (25.5s)
+  n_qubits= 8  pca     Recall@1=0.800  (27.3s)
+  n_qubits=10  random  Recall@1=0.150  (35.5s)
+  n_qubits=10  pca     Recall@1=0.900  (37.6s)
+  n_qubits=12  random  Recall@1=0.200  (109.7s)
+  n_qubits=12  pca     Recall@1=0.950  (77.7s)
+  n_qubits=14  random  Recall@1=0.350  (129.4s)
+  n_qubits=14  pca     Recall@1=0.900  (130.9s)
+
+n_qubits    random       pca     gap
+       4     0.050     0.250   0.200
+       6     0.000     0.550   0.550
+       8     0.050     0.800   0.750
+      10     0.150     0.900   0.750
+      12     0.200     0.950   0.750
+      14     0.350     0.900   0.550
+
+=== Query-noise sweep (480-item corpus, n_qubits=4, n_queries=20/cell) ===
+  mult=  0.2  random=0.550  pca=1.000  classical=1.000
+  mult=  1.2  random=0.050  pca=0.250  classical=1.000
+  mult=  2.0  random=0.000  pca=0.150  classical=1.000
+  mult=  4.0  random=0.000  pca=0.450  classical=0.950
+  mult=  6.0  random=0.000  pca=0.400  classical=0.550
+  mult=  8.0  random=0.000  pca=0.150  classical=0.150
+  mult= 10.0  random=0.000  pca=0.050  classical=0.050
+  mult= 12.0  random=0.000  pca=0.050  classical=0.050
+  mult= 16.0  random=0.000  pca=0.000  classical=0.000
+  mult= 20.0  random=0.000  pca=0.000  classical=0.000
+
+=== Candidate-scarcity scan: exact statevector fidelity, all 480 self-match queries ===
+  ... 100/480 done (4s elapsed)
+  ... 200/480 done (8s elapsed)
+  ... 300/480 done (12s elapsed)
+  ... 400/480 done (16s elapsed)
+
+PCA: 456/480 queries clear sim_fid>=0.5 (95.0%)
+Random: 184/480 queries clear sim_fid>=0.5 (38.3%)
+(original 48-item corpus: 8/48 = 16.7% for random)
+
+ALL DONE

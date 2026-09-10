@@ -1,0 +1,21 @@
+{
+  "epoch_label": "E",
+  "last_update_date": "2026-08-13T10:45:14+10:00",
+  "backend": "ibm_kingston",
+  "jobs_under_this_epoch": [
+    "d9uiq7535hes73fk02lg (232-item corpus, mult=4.0, created 12:34:04)"
+  ],
+  "two_qubit_gate_error": {
+    "mean": 0.045112114898248006,
+    "median": 0.0020421048740618813,
+    "min": 0.000860402389177034,
+    "max": 1.0,
+    "n_gates": 704
+  },
+  "readout_error": {
+    "mean": 0.026166866987179488,
+    "median": 0.00848388671875,
+    "n_qubits": 156
+  },
+  "note": "A distinct calibration publish occurred between epoch D (09:05:12) and this one (10:45:14), confirmed by the differing last_update_date -- IBM republished a properties snapshot in between. A full elementwise diff of every individual 2-qubit gate error and every individual qubit readout error against epoch D's snapshot found zero differing values, not just matching aggregate stats -- whatever that recalibration event updated (frequencies, T1/T2, or other fields not checked here), it left every 2Q gate error and readout error value on this chip unchanged. See hardware/README.md's calibration snapshots section for what this means for the four-corpus-size drift question."
+}

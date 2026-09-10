@@ -1,0 +1,29 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading HARD real corpus (20 Newsgroups: comp.*/rec.autos+motorcycles/sci.electronics) and encoding with all-MiniLM-L6-v2 ...
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|##########| 103/103 [00:00<00:00, 5129.89it/s]
+  done in 53.5s. corpus per-dim std = 0.04882 (embedding dim=384, unit-normalized)
+
+--- Qubit-count sweep on HARD real embeddings: random vs PCA projection ---
+(d=384 all-MiniLM-L6-v2, confusable 20 Newsgroups topics, 48-item corpus, 8 topics x 6 docs, statevector fidelity)
+
+  n_qubits= 4  random  Recall@1=0.060  (4.3s for 50 query-runs)
+  n_qubits= 4  pca     Recall@1=0.960  (4.4s for 50 query-runs)
+  n_qubits= 6  random  Recall@1=0.100  (6.4s for 50 query-runs)
+  n_qubits= 6  pca     Recall@1=0.980  (6.5s for 50 query-runs)
+  n_qubits= 8  random  Recall@1=0.140  (8.9s for 50 query-runs)
+  n_qubits= 8  pca     Recall@1=0.980  (8.5s for 50 query-runs)
+  n_qubits=10  random  Recall@1=0.280  (10.8s for 50 query-runs)
+  n_qubits=10  pca     Recall@1=0.980  (11.2s for 50 query-runs)
+  n_qubits=12  random  Recall@1=0.280  (17.0s for 50 query-runs)
+  n_qubits=12  pca     Recall@1=0.980  (17.1s for 50 query-runs)
+  n_qubits=14  random  Recall@1=0.420  (32.3s for 50 query-runs)
+  n_qubits=14  pca     Recall@1=0.980  (34.2s for 50 query-runs)
+
+--- Summary (hard real embeddings) ---
+n_qubits    random       pca     gap
+       4     0.060     0.960   0.900
+       6     0.100     0.980   0.880
+       8     0.140     0.980   0.840
+      10     0.280     0.980   0.700
+      12     0.280     0.980   0.700
+      14     0.420     0.980   0.560

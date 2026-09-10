@@ -1,0 +1,23 @@
+{
+  "epoch_label": "D",
+  "last_update_date": "2026-08-13T09:05:12+10:00",
+  "backend": "ibm_kingston",
+  "jobs_under_this_epoch": [
+    "d9ug1i8u5hac73ah6a7g (216-item corpus, mult=4.0, created 09:24:57)",
+    "d9ug9q8u5hac73ah6im0 (224-item corpus, mult=4.0, created 09:42:33)",
+    "d9ugf5s98n5s7392r6ag (240-item corpus, mult=4.0, created 09:53:59)"
+  ],
+  "two_qubit_gate_error": {
+    "mean": 0.045112114898248006,
+    "median": 0.0020421048740618813,
+    "min": 0.000860402389177034,
+    "max": 1.0,
+    "n_gates": 704
+  },
+  "readout_error": {
+    "mean": 0.026166866987179488,
+    "median": 0.00848388671875,
+    "n_qubits": 156
+  },
+  "note": "Backend drift check for transition_boundary_hardware_2026-08-13.md's four-corpus-size mult=4.0 series. Pulled via backend.properties(datetime=<job creation time>) using the default-ibm-cloud account, same method as epochs A/B/C. Aggregate stats differ from epochs A/B/C only because those are from a different calendar date (2026-07-30 vs 2026-08-13) -- not evidence of drift within this window; see epoch E for the same-window comparison."
+}

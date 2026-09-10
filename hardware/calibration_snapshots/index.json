@@ -1,0 +1,11 @@
+{
+  "epochs_retrieved": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E"
+  ],
+  "scope": "Epochs A/B/C cover the n=18 PCA-vs-random drift check (Test 3/6/7/8/9 job cluster). Epochs D/E cover a separate four-job mult=4.0 corpus-size drift check -- see hardware/README.md. Not pulled for the remaining jobs in job_records/ -- see hardware/README.md for current scope.",
+  "account_used": "default-ibm-cloud"
+}

@@ -1,0 +1,18 @@
+{
+  "job_id": "d9uedg343mgs73essa60",
+  "backend": "ibm_kingston",
+  "created": "2026-08-13T07:33:52.527551+10:00",
+  "test": "hardware_confirmation_480item_2026-08-12.md, Tier 1c -- mult=2.0 extension, 8 new wrong-top-1 queries (q_idx 4-13, excluding 0-3)",
+  "n_pubs": 32,
+  "corpus": "480-item corpus (60/category), seed=0",
+  "n_qubits": 4,
+  "circuit_type": "destructive/Bell-basis",
+  "pca_fitting_convention": "query-included (leaky) -- confirmed by code-pattern trace, not independently angle-verified",
+  "surviving_artifacts": {
+    "build_script": "scratch_hw_build_mult2.0_extend.py",
+    "circuit_pkl": "scratch_hw_mult2.0_extend_circuits.pkl",
+    "submit_script": "scratch_hw_submit_mult2.0_extend.py",
+    "results_pkl": "scratch_hw_mult2.0_extend_results.pkl",
+    "note": "extends d9ls5umh4e6s738ubqt0 (q_idx 0-3) to n=12; the original 4 queries were reused unchanged, not resubmitted"
+  }
+}

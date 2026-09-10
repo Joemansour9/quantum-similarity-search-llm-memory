@@ -1,0 +1,23 @@
+{
+  "epoch_label": "C",
+  "last_update_date": "2026-07-30T10:36:54+10:00",
+  "backend": "ibm_kingston",
+  "jobs_under_this_epoch": [
+    "d9l9uh0ii2cc73eh7bl0 (Test 8 batch1)",
+    "d9l9vbabr2fc73e8d8o0 (Test 8 batch2)",
+    "d9la4sgii2cc73eh7j3g (Test 9 fill7)"
+  ],
+  "two_qubit_gate_error": {
+    "mean": 0.03926,
+    "median": 0.00185,
+    "min": 0.00081,
+    "max": 1.0,
+    "n_gates": 704
+  },
+  "readout_error": {
+    "mean": 0.02546,
+    "median": 0.00873,
+    "n_qubits": 156
+  },
+  "note": "Whole-chip aggregate stats identical to epoch A and B at this precision -- see hardware/README.md for interpretation."
+}

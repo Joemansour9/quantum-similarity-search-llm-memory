@@ -1,0 +1,15 @@
+{
+  "job_id": "d9l820rhdfks73ckkco0",
+  "backend": "ibm_kingston",
+  "created": "2026-07-30T08:38:59.889595+10:00",
+  "test": "Test 4 -- gate-count midpoint (opt_level=0 vs 3)",
+  "n_pubs": 1,
+  "corpus": "48-item hard corpus, seed=0",
+  "n_qubits": 4,
+  "circuit_type": "destructive/Bell-basis, opt_level=0",
+  "pca_fitting_convention": "query-included (leaky) -- verified: reuses the exact same query/candidate/R/scale as d9l0mrqbr2fc73e812hg (Test 1), only the transpiler optimization_level differs",
+  "surviving_artifacts": {
+    "submit_script": "scratch_hw_submit_opt0.py",
+    "note": "reuses scratch_hw_circuit_destructive.pkl, no separate circuit file"
+  }
+}

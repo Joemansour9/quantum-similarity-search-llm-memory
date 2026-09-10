@@ -1,0 +1,22 @@
+{
+  "job_id": "dacpanjdd5gc73d6cpm0",
+  "corrected": true,
+  "original_job_id": "d9ls5umh4e6s738ubqt0",
+  "backend": "ibm_kingston",
+  "created": "2026-09-03T15:52:16.195244+00:00",
+  "test": "large_corpus_generalization_2026-07-30.md, Result 2b -- hardware confirmation of the mult=2.0 query-noise-dissociation breakdown [corrected rerun of d9ls5umh4e6s738ubqt0]",
+  "n_pubs": 16,
+  "corpus": "480-item corpus (60/category), seed=0",
+  "n_qubits": 4,
+  "shots": 1024,
+  "optimization_level": 3,
+  "circuit_type": "destructive/Bell-basis",
+  "pca_fitting_convention": "out-of-sample (leak-free, corrected) -- query excluded from the batch used to fit the PCA projection; verified against readiness data (scratch_hw_corrected_circuits_readiness.pkl) before submission and against the identity-chain check after",
+  "elapsed_seconds": 594.2709049000405,
+  "job_usage_seconds": 7,
+  "surviving_artifacts": {
+    "results_pkl": "corrected_results/scratch_hw_corrected_Result2b-mult2.0-4query_results.pkl",
+    "note": "raw per-item counts and per-item hw/sim fidelity are stored directly in this results_pkl; no separate circuit_pkl was retained for the corrected rerun."
+  },
+  "relation_to_original": "Corrected (leak-free) re-submission of d9ls5umh4e6s738ubqt0, same corpus/seed/candidate pairs/circuit type/n_qubits as the original, differing only in the PCA-fitting convention used to build the rotation angles."
+}

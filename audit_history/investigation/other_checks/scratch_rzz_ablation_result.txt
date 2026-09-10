@@ -1,0 +1,33 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading HARD real corpus (20 Newsgroups: comp.*/rec.autos+motorcycles/sci.electronics) and encoding with all-MiniLM-L6-v2 ...
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|##########| 103/103 [00:00<00:00, 4577.96it/s]
+  done in 26.5s. corpus per-dim std = 0.04882 (embedding dim=384, unit-normalized)
+
+=== RZZ entanglement ablation: Recall@1, rzz vs no-entangler (product state) ===
+(48-item hard corpus, PCA projection, n_qubits=4 and 8, n=50/cell)
+
+--- n_qubits=4 ---
+  mult       rzz   no-entangler     delta
+   0.2     1.000          1.000    +0.000
+   1.2     0.880          1.000    +0.120
+   2.0     0.980          1.000    +0.020
+   4.0     0.960          0.960    +0.000
+   6.0     0.840          0.860    +0.020
+   8.0     0.620          0.620    +0.000
+  12.0     0.360          0.360    +0.000
+  20.0     0.160          0.160    +0.000
+
+--- n_qubits=8 ---
+  mult       rzz   no-entangler     delta
+   0.2     1.000          1.000    +0.000
+   1.2     0.920          1.000    +0.080
+   2.0     1.000          1.000    +0.000
+   4.0     0.960          0.960    +0.000
+   6.0     0.860          0.860    +0.000
+   8.0     0.620          0.620    +0.000
+  12.0     0.360          0.360    +0.000
+  20.0     0.160          0.160    +0.000
+
+Saved results to scratch_rzz_ablation_results.pkl
+
+DONE

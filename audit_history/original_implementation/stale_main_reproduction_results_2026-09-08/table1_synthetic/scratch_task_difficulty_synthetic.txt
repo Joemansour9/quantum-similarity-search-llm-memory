@@ -1,0 +1,29 @@
+--- Corpus complexity sweep (n_qubits=8, query_noise=1.2 fixed) ---
+ spread   random_q    pca_q   classical
+    0.5      0.420    0.780       0.980
+    1.0      0.500    0.860       1.000
+    1.5      0.580    0.960       1.000
+    2.0      0.680    0.960       1.000
+    3.0      0.800    0.940       1.000
+    5.0      0.800    0.980       1.000
+
+--- Query noise sweep (n_qubits=8, cluster_spread=2.0 fixed) ---
+  noise   random_q    pca_q   classical
+    0.2      1.000    1.000       1.000
+    0.6      0.940    0.980       1.000
+    1.2      0.680    0.960       1.000
+    2.0      0.440    0.900       0.980
+    3.0      0.340    0.500       0.840
+    5.0      0.140    0.320       0.460
+
+--- Interpretation notes (fill in after inspecting the tables above) ---
+- If classical also degrades at the same difficulty level as quantum,
+  the task itself is becoming genuinely harder (not a quantum-specific
+  weakness) — expected and uninteresting.
+- If quantum degrades notably FASTER than classical at a given knob,
+  that isolates a real quantum-encoding weakness on that specific axis
+  (compression sensitivity to cluster tightness, or to query noise).
+- If random projection degrades faster than PCA specifically as task
+  difficulty increases, that would mean PCA's advantage isn't fixed —
+  it may matter MORE exactly when the task gets harder, which is the
+  regime that matters most for a real deployment.

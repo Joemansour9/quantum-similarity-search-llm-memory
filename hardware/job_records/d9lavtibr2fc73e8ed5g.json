@@ -1,0 +1,15 @@
+{
+  "job_id": "d9lavtibr2fc73e8ed5g",
+  "backend": "ibm_kingston",
+  "created": "2026-07-30T11:59:18.701362+10:00",
+  "test": "Test 12 -- strengthened retrieval, batch 1 of 2 (8 new queries added to Recall@1=n)",
+  "n_pubs": 16,
+  "corpus": "48-item hard corpus, seed=0",
+  "n_qubits": 4,
+  "circuit_type": "destructive/Bell-basis",
+  "pca_fitting_convention": "query-included (leaky) -- confirmed by code-pattern trace, not independently angle-verified (queries not fidelity-filtered/deliberately outside the traced set, since Test 12 targets retrieval correctness rather than fidelity magnitude)",
+  "surviving_artifacts": {
+    "submit_script": "scratch_hw_submit_retrieval_extra.py",
+    "note": "circuit-building step run inline, no standalone circuit pkl found"
+  }
+}

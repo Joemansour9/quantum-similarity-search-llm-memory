@@ -1,0 +1,22 @@
+{
+  "job_id": "dacoir3dd5gc73d6bts0",
+  "corrected": true,
+  "original_job_id": "d9lcqtjjf64c739jbkrg",
+  "backend": "ibm_fez",
+  "created": "2026-09-03T14:51:32.853893+00:00",
+  "test": "Priority 2 -- CSWAP-vs-destructive, n=4 paired (strengthens Test 1) [corrected rerun of d9lcqtjjf64c739jbkrg]",
+  "n_pubs": 8,
+  "corpus": "48-item hard corpus, seed=0",
+  "n_qubits": 4,
+  "shots": 1024,
+  "optimization_level": 3,
+  "circuit_type": "ancilla + destructive",
+  "pca_fitting_convention": "out-of-sample (leak-free, corrected) -- query excluded from the batch used to fit the PCA projection; verified against readiness data (scratch_hw_corrected_circuits_readiness.pkl) before submission and against the identity-chain check after",
+  "elapsed_seconds": 9.905480800021905,
+  "job_usage_seconds": 4,
+  "surviving_artifacts": {
+    "results_pkl": "corrected_results/scratch_hw_corrected_Test14-cswapvsdestr_results.pkl",
+    "note": "raw per-item counts and per-item hw/sim fidelity are stored directly in this results_pkl; no separate circuit_pkl was retained for the corrected rerun."
+  },
+  "relation_to_original": "Corrected (leak-free) re-submission of d9lcqtjjf64c739jbkrg, same corpus/seed/candidate pairs/circuit type/n_qubits as the original, differing only in the PCA-fitting convention used to build the rotation angles."
+}
