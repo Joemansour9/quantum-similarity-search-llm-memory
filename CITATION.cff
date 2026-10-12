@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this software or data, please cite it using these metadata."
+title: "Code and data for: Quantum Similarity Search for LLM-Agent Memory Retrieval under Bounded State Preparation"
+type: software
+authors:
+  - family-names: Mansour
+    given-names: Joe
+    affiliation: "Charles Darwin University"
+    orcid: "https://orcid.org/0000-0002-3245-1899"
+  - family-names: Shanmugam
+    given-names: Bharanidharan
+    affiliation: "Charles Darwin University"
+  - family-names: Yeo
+    given-names: Kheng Cher
+    affiliation: "Charles Darwin University"
+license: MIT
+repository-code: "https://github.com/Joemansour9/quantum-similarity-search-llm-memory"
