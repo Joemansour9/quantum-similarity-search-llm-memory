@@ -21,6 +21,6 @@ absent at mult=1.2, severe at mult≥4.0, in every corpus and embedding model te
 | `scratch_n18_leakage_results.pkl` | Real-hardware angle-shift trace, the n=18 gate-matched PCA-vs-random comparison set. |
 
 Only the first two files were previously rendered into a report
-(`co_author_feedback_verification_2026-08-14.md`). The remaining seven — the mpnet, MiniLM,
+(`feedback_verification_2026-08-14.md`). The remaining seven — the mpnet, MiniLM,
 480-item-noise-sweep, n100-confirm, and transition-sizes files — existed only as raw pickle data
 until `COMPARISON.md` was written.

@@ -1,5 +1,5 @@
 """
-scratch_verify_classical_simulability.py — Task 1 (co-author feedback):
+scratch_verify_classical_simulability.py — Task 1 (feedback):
 Is |<psi_q|psi_c>|^2 for the chain-topology Ry+RZZ encoding classically
 computable in closed form from the two angle vectors alone, without
 building/simulating the quantum circuit?

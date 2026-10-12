@@ -1,4 +1,4 @@
-# Co-Author Feedback Verification — Two Checkable-Fact Concerns — 2026-08-14
+# Feedback Verification — Two Checkable-Fact Concerns — 2026-08-14
 
 Both tasks investigated rigorously, code traced precisely, empirical checks run against this
 project's own real corpora/pipeline (no new embeddings, no QPU quota — Task 1 is pure classical
@@ -79,7 +79,7 @@ general/dense correlation graph would need a tensor-network contraction whose co
 graph's treewidth — not guaranteed polynomial for an arbitrary graph, though still expressible in
 exact closed form.
 
-**Verdict: this co-author feedback is correct, and for the chain topology it is stronger than
+**Verdict: this feedback is correct, and for the chain topology it is stronger than
 stated** — this isn't merely "can be computed in closed form," it is **classically simulable in
 polynomial time**, which undercuts any claim that this specific encoding (chain topology, RZZ
 entangler, statevector-fidelity readout) requires a quantum computer to evaluate at all. This
@@ -132,7 +132,7 @@ against the already-archived leaky numbers in `scratch_large_corpus_qubit_sweep.
 | 12 | 0.950 | 0.950 | 0.000 | 0.200 | 0.200 | 0.000 | 0.750 | 0.750 | **0.000** |
 | 14 | 0.900 | 0.900 | 0.000 | 0.350 | 0.350 | 0.000 | 0.550 | 0.550 | **0.000** |
 
-**Verdict: this co-author feedback is correct and material, but doesn't overturn the finding.**
+**Verdict: this feedback is correct and material, but doesn't overturn the finding.**
 Removing the leakage:
 - **Never increases** PCA's recall at any qubit count (every non-zero PCA Δ is negative — exactly
   the direction leakage-inflation predicts; there is no case where the "cleaner" fit did better),

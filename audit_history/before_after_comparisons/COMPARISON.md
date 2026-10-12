@@ -10,7 +10,7 @@ alongside this one in this folder; the scripts that produced them are in
 `../investigation/leakage_investigation/`.
 
 ## 1. 480-item corpus, qubit sweep, mult=1.2 (`scratch_pca_leakage_results.pkl`)
-*Written up in `co_author_feedback_verification_2026-08-14.md`, Task 2.*
+*Written up in `feedback_verification_2026-08-14.md`, Task 2.*
 
 | n_qubits | PCA leaky | PCA leak-free | PCA Δ | random leaky | random leak-free | gap leaky | gap leak-free | **gap Δ** |
 |---|---|---|---|---|---|---|---|---|
@@ -25,7 +25,7 @@ At this specific corpus/noise level, n_qubits=4 (the headline setting) appears u
 does not hold at other corpora or noise levels — see tables 3–7 below.**
 
 ## 2. Three other corpora, qubit sweep (`scratch_pca_leakage_remaining_results.pkl`)
-*Documented in `co_author_feedback_verification_2026-08-14.md`'s same-day extension.*
+*Documented in `feedback_verification_2026-08-14.md`'s same-day extension.*
 
 **Synthetic corpus (Table 1, 24 items):**
 

@@ -1,5 +1,5 @@
 """
-scratch_verify_pca_leakage.py — Task 2 (co-author feedback): rerun the
+scratch_verify_pca_leakage.py — Task 2 (feedback): rerun the
 480-item qubit sweep (Result 1's flagship setting, mirroring
 scratch_large_corpus_sweep.py exactly: mult=1.2, n_qubits sweep, n=20/cell,
 rng=default_rng(1)) with the PCA/random projection fit EXCLUDING the query

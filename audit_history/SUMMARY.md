@@ -20,7 +20,7 @@ overstated PCA's advantage.
 
 ## Discovery and scale
 
-Co-author feedback raised the concern on 2026-08-14. Tracing every call site confirmed the leak was
+Feedback raised the concern on 2026-08-14. Tracing every call site confirmed the leak was
 universal — every benchmark script in the project routed through the same leaky fitting call. A
 first out-of-sample rerun, on the 480-item corpus, found the leak inflated PCA's reported advantage
 by a real but modest amount at most qubit counts, and initially appeared not to affect the
